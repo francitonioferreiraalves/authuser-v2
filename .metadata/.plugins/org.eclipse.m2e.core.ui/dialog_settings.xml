@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/home/tito/eclipse-workspace/EAD/authuser-v2"/>
 			<item value="/home/tito/eclipse-workspace/EAD/authuser-api"/>
 		</list>
 		<list key="projectNameTemplate">
