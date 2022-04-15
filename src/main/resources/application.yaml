@@ -11,7 +11,7 @@ spring:
   application:
     name: ead-authuser-service
   datasource:
-    url: jdbc:postgresql://localhost:15432/ead-authuser
+    url: jdbc:postgresql://localhost:15432/ead-authuser-v2
     username: postgres
     password: Postgres2019!
   jpa:
