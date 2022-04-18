@@ -23,7 +23,10 @@ spring:
     properties:
       hibernate:
         show_sql: true
-        
+ 
+  rabbitmq:
+    addresses: amqps://nmgojkfr:Lf_lZQLPVo7Q2oK9UpEcRU3tM_oSFLj9@gull.rmq.cloudamqp.com/nmgojkfr
+           
 logging:
   level:
     com.ead: TRACE
@@ -35,7 +38,9 @@ ead:
   api:
     url:
       course: 'http://ead-course-service/ead-course/'
-
+  broker:
+    exchange:
+      userEvent: ead.userevent
 eureka:
   client:
     serviceUrl:
